@@ -81,12 +81,6 @@ class Sortable extends Component {
 
         this.sortable = SortableJS.create(ReactDOM.findDOMNode(this), options);
     }
-    componentWillUnmount() {
-        if (this.sortable) {
-            this.sortable.destroy();
-            this.sortable = null;
-        }
-    }
     render() {
         const { tag: Component, ...props } = this.props;
 
