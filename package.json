@@ -2,7 +2,7 @@
   "name": "react-sortablejs",
   "version": "1.3.4",
   "description": "A React component built on top of Sortable (https://github.com/RubaXa/Sortable).",
-  "main": "lib/index.js",
+  "main": "src/index.js",
   "scripts": {
     "prepublish": "npm run lint && npm test && npm run build && npm run dist && npm run build-examples && npm run release",
     "build": "babel --out-dir ./lib ./src",
